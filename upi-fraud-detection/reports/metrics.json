@@ -1,0 +1,36 @@
+{
+  "threshold": 0.42,
+  "holdout": {
+    "IQR rule": {
+      "precision": 0.696,
+      "recall": 0.722,
+      "f1": 0.709
+    },
+    "Isolation Forest": {
+      "precision": 0.48,
+      "recall": 0.444,
+      "f1": 0.462
+    },
+    "Time-series z>3": {
+      "precision": 0.64,
+      "recall": 0.593,
+      "f1": 0.615
+    },
+    "Velocity rule": {
+      "precision": 1.0,
+      "recall": 0.167,
+      "f1": 0.286
+    },
+    "Ensemble": {
+      "precision": 0.904,
+      "recall": 0.87,
+      "f1": 0.887,
+      "roc_auc": 0.984
+    }
+  },
+  "holdout_recall_by_fraud_type": {
+    "burst": 0.6,
+    "high_amount": 0.966,
+    "night_transfer": 1.0
+  }
+}
